@@ -1,7 +1,7 @@
 import cohere
 import streamlit as st
 
-cohere_api_key = "wdzUYHBArrRV0nNFh1gcFKhelSyQfZpRT9RI55P0"
+cohere_api_key = "cohere_api_key"
 co = cohere.Client(cohere_api_key)
 
 def generate_reply(email_content):
